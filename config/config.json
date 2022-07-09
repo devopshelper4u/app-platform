@@ -1,0 +1,58 @@
+{
+    "myapps": {
+        "name": "Samples",
+        "path": "",
+        "title": "Samples",
+        "worker": "services.js",
+        "meta": {
+            "description": "Some text"
+        },
+        "tags": [
+            {
+                "external": true
+            },
+            {
+                "href": "manifest.json",
+                "rel": "manifest"
+            },
+            {
+                "href": "app-images/icons/icon-152x152.png",
+                "rel": "apple-touch-icon"
+            }
+        ],
+        "dependencies": {
+            "resources": {
+                "name": "app4",
+                "module": "@devopshelper4u/app4",
+                "type": "lib",
+                "version": "1.56.7"
+            }
+        },
+        "internalapps": {
+            "@devopshelper4u/app1": {
+                "name": "App1",
+                "path": "App1",
+                "config": "config/server.json",
+                "type": "lib",
+                "version": "1.5.1",
+                "copy": true
+            },
+            "@devopshelper4u/app2": {
+                "name": "App2",
+                "path": "App2",
+                "config": "config/server.json",
+                "type": "lib",
+                "version": "5.8.0",
+                "copy": true
+            },
+            "@devopshelper4u/app3": {
+                "name": "App3",
+                "path": "App3",
+                "config": "config/server.json",
+                "type": "lib",
+                "version": "1.8.11",
+                "copy": true
+            }
+        }
+    }
+}
