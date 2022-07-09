@@ -1,7 +1,5 @@
 name: Update app1 version on release of app1
-on:
-  release:
-    types: [created]
+on: [workflow_call]
 jobs:
   build:
     runs-on: ubuntu-latest
