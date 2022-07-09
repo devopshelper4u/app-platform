@@ -34,7 +34,7 @@
         "path": "App1",
         "config": "config/server.json",
         "type": "lib",
-        "version": "",
+        "version": "4.5.33",
         "copy": true
       },
       "@devopshelper4u/app2": {
